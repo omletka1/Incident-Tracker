@@ -1,0 +1,237 @@
+/* Базовые "бомба-стили" */
+.super-window.boom-box {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+    padding: 25px;
+    margin: 20px 0;
+}
+
+.mega-header.flashy-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #eef2f7;
+}
+
+.ultra-title.zappy-text {
+    color: #2c3e50;
+    font-weight: 700;
+    margin: 0;
+}
+
+.button-cluster.turbo-group {
+    display: flex;
+    gap: 12px;
+}
+
+.atomic-button.zoomy-btn,
+.cosmic-btn.sparkle-item {
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: none;
+}
+
+.atomic-button.zoomy-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(46, 204, 113, 0.3);
+}
+
+.cosmic-btn.sparkle-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(108, 117, 125, 0.3);
+}
+
+/* Панель фильтров */
+.filter-master.funky-panel.rainbow-card {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    margin-bottom: 30px;
+}
+
+.disco-header {
+    background: #4f46e5;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 12px 12px 0 0;
+}
+
+.glowy-text {
+    color: white;
+    font-weight: 600;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.jazzy-content {
+    padding: 25px;
+}
+
+.neon-form.wobbly-form .form-control {
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+.neon-form.wobbly-form .form-control:focus {
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+/* Стили для инпутов */
+.shiny-input.zap-field,
+.glow-select.funky-option,
+.boom-select.wobble-choice,
+.date-input.flashy-calendar,
+.date-input.shiny-calendar {
+    height: 45px;
+}
+
+/* Кнопки */
+.power-btn.zoom-action,
+.reset-btn.zap-clear {
+    height: 45px;
+    min-width: 80px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.power-btn.zoom-action:hover {
+    background: #4338ca;
+    transform: scale(1.05);
+}
+
+.reset-btn.zap-clear:hover {
+    background: #5a6268;
+    transform: scale(1.05);
+}
+
+/* Таблица */
+.table-container.mega-table.cosmic-grid {
+    overflow-x: auto;
+}
+
+.funky-table.boom-list {
+    width: 100%;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+}
+
+.funky-table.boom-list thead {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.table-header.flashy-row th {
+    color: white;
+    font-weight: 600;
+    padding: 18px 15px;
+    border: none;
+}
+
+.table-row.hover-effect.boom-row {
+    transition: all 0.2s ease;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.table-row.hover-effect.boom-row:hover {
+    background-color: #f8fafc;
+    transform: translateX(4px);
+}
+
+/* Бейджи статусов */
+.status-new.neon-badge {
+    background: #dbeafe;
+    color: #1e40af;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.status-progress.flashy-badge {
+    background: #fef3c7;
+    color: #92400e;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.status-closed.calm-badge {
+    background: #dcfce7;
+    color: #166534;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+/* Бейджи приоритетов */
+.priority-low.safe-badge {
+    background: #dcfce7;
+    color: #166534;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.priority-medium.alert-badge {
+    background: #fef3c7;
+    color: #92400e;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.priority-high.danger-badge {
+    background: #fee2e2;
+    color: #991b1b;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+/* Кнопки действий */
+.action-btn.zoom-icon {
+    color: #4f46e5;
+    background: #eef2ff;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    margin: 0 2px;
+    transition: all 0.3s ease;
+}
+
+.action-btn.zoom-icon:hover {
+    background: #4f46e5;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .mega-header.flashy-block {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .space-row.groovy-grid .col-md-3,
+    .space-row.groovy-grid .col-md-2,
+    .space-row.groovy-grid .col-md-1 {
+        margin-bottom: 15px;
+    }
+
+    .action-buttons.blast-group {
+        justify-content: center;
+    }
+}
